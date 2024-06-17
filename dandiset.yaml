@@ -36,17 +36,17 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 6532536286
-  numberOfFiles: 108
-  numberOfSubjects: 10
+  numberOfBytes: 5406899399
+  numberOfFiles: 87
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured:
-  - ElectrodeGroup
   - ElectricalSeries
+  - ElectrodeGroup
 citation: Haoqi Ni; Yufang Yang; Fang Zhang (2024) Dataset of long-term multi-site
   LFP activity with spontaneous chronic seizures recorded in temporal lobe epilepsy
   rats (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001044/draft
