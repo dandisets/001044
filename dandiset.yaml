@@ -32,13 +32,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 5406899399
-  numberOfFiles: 87
-  numberOfSubjects: 9
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 17935587444
+  numberOfFiles: 162
+  numberOfSubjects: 15
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
@@ -47,9 +47,9 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Haoqi Ni; Yufang Yang; Fang Zhang (2024) Dataset of long-term multi-site
-  LFP activity with spontaneous chronic seizures recorded in temporal lobe epilepsy
-  rats (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001044/draft
+citation: Haoqi Ni; Yufang Yang; Fang Zhang; Yuting Sun (2024) Dataset of long-term
+  multi-site LFP activity with spontaneous chronic seizures recorded in temporal lobe
+  epilepsy rats (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001044/draft
 contributor:
 - email: nihq@zju.edu.cn
   includeInCitation: true
@@ -70,6 +70,12 @@ contributor:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
+- includeInCitation: true
+  name: Yuting Sun
+  roleName:
+  - dcite:DataCollector
+  - dcite:Researcher
+  schemaKey: Person
 - includeInCitation: false
   name: Kedi Xu
   roleName:
@@ -82,19 +88,29 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-02T08:46:00.097734+00:00'
-description: We provided a long-term electrophysiological dataset of 10 pilocarpine-treated
+description: We provided a long-term brain electrophysiological dataset of 10 pilocarpine-treated
   temporal lobe epilepsy (TLE) rats during the development of epilepsy. The dataset
   was constituted by multi-site local field potential (LFP) signal recorded from 12
-  sites in the circuit of Papez in TLE, including all spontaneous seizure fragments
-  in the chronic period. The LFP data were saved in MATLAB and stored as the Neurodata
-  Without Borders (NWB) standard. The dataset can be used to evaluate the variations
-  of the latency of seizure onsets, seizure onset zone (SOZ), seizure onset pattern
-  (SOP), and functional network connectivity during the development of epilepsy. We
-  have technically validated the dataset and analyzed the spectral power of LFP data.
-  This dataset is available to reveal how electrophysiological and epileptic network
-  properties of chronic TLE rats change from early to late stages, and help inform
-  the design of adaptive neuromodulation for epilepsy.
-ethicsApproval: []
+  sites in the circuit of Papez in TLE, including spontaneous seizures and interictal
+  fragments in the chronic period. The LFP data were saved in MATLAB, stored as the
+  Neurodata Without Borders (NWB) standard, and published on the DANDI Archive. The
+  dataset can be used to evaluate the alterations of seizure onset zone (SOZ), seizure
+  onset pattern (SOP), and functional network connectivity during the development
+  of epilepsy. We have technically validated the dataset through histology and specific
+  signal analysis. In addition, we provided MATLAB codes for basic analyses of this
+  dataset, including power spectral analysis, SOP identification, and interictal spike
+  detection. The dataset is available to reveal how brain electrophysiological and
+  epileptic network properties of chronic TLE rats change from early to late stages,
+  and help inform the design of adaptive neuromodulation for epilepsy.
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ZJU20190116
+  schemaKey: EthicsApproval
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Zhejiang University 15896
+  schemaKey: EthicsApproval
 id: DANDI:001044/draft
 identifier: DANDI:001044
 keywords:
@@ -116,7 +132,8 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-studyTarget: []
+studyTarget:
+- Brain electrophysiological changes in TLE rats with spontaneous chronic seizures
 url: https://dandiarchive.org/dandiset/001044/draft
 version: draft
 wasGeneratedBy: []
