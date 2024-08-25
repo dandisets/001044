@@ -23,12 +23,7 @@ about:
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
-acknowledgement: This work was supported by STI 2030—Major Projects (2021ZD0200405),
-  National Natural Science Foundation of China (82272112), Outstanding Youth Program
-  of Zhejiang Natural Science Foundation (LR23H180002), the Fundamental Research Funds
-  for the Central Universities (2021KYY600403-0001), and the Starry Night Science
-  Fund of Zhejiang University Shanghai Institute for Advanced Study (SN-ZJU-SIAS-002).
-  The funders had no role in the design or analysis of the study.
+acknowledgement: ''
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -110,11 +105,30 @@ contributor:
   - dcite:ProjectAdministration
   - dcite:Supervision
   schemaKey: Person
-- awardNumber: 6 R10 CN 121381-09
+- awardNumber: 2021ZD0200405
   includeInCitation: false
-  name: Zhejiang University (ZJU)
+  name: STI 2030—Major Projects
   roleName:
   - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '82272112'
+  includeInCitation: false
+  name: National Natural Science Foundation of China
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: LR23H180002
+  includeInCitation: false
+  name: Outstanding Youth Program of Zhejiang Natural Science Foundation
+  schemaKey: Organization
+- awardNumber: 2021KYY600403-0001
+  includeInCitation: false
+  name: the Fundamental Research Funds for the Central Universities
+  schemaKey: Organization
+- awardNumber: SN-ZJU-SIAS-002
+  includeInCitation: false
+  name: the Starry Night Science Fund of Zhejiang University Shanghai Institute for
+    Advanced Study
   schemaKey: Organization
 dateCreated: '2024-06-02T08:46:00.097734+00:00'
 description: We provided a long-term brain electrophysiological dataset of 15 pilocarpine-treated
@@ -166,4 +180,7 @@ studyTarget:
 url: https://dandiarchive.org/dandiset/001044/draft
 version: draft
 wasGeneratedBy:
-- {}
+- identifier: https://doi.org/10.1016/j.yebeh.2023.109120
+  name: Progressive alterations in electrophysiological and epileptic network properties
+    during the development of temporal lobe epilepsy in rats
+  schemaKey: Project
