@@ -23,6 +23,12 @@ about:
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
+acknowledgement: This work was supported by STI 2030—Major Projects (2021ZD0200405),
+  National Natural Science Foundation of China (82272112), Outstanding Youth Program
+  of Zhejiang Natural Science Foundation (LR23H180002), the Fundamental Research Funds
+  for the Central Universities (2021KYY600403-0001), and the Starry Night Science
+  Fund of Zhejiang University Shanghai Institute for Advanced Study (SN-ZJU-SIAS-002).
+  The funders had no role in the design or analysis of the study.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -47,15 +53,19 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Haoqi Ni; Yufang Yang; Fang Zhang; Yuting Sun (2024) Dataset of long-term
-  multi-site LFP activity with spontaneous chronic seizures recorded in temporal lobe
-  epilepsy rats (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001044/draft
+citation: Haoqi Ni; Yufang Yang; Fang Zhang; Yuting Sun; Yongte Zheng; Junming Zhu;
+  Kedi Xu (2024) Dataset of long-term multi-site LFP activity with spontaneous chronic
+  seizures recorded in temporal lobe epilepsy rats (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/001044/draft
 contributor:
 - email: nihq@zju.edu.cn
+  identifier: 0009-0003-1749-4043
   includeInCitation: true
   name: Haoqi Ni
   roleName:
   - dcite:Author
+  - dcite:DataManager
+  - dcite:FormalAnalysis
   schemaKey: Person
 - includeInCitation: true
   name: Yufang Yang
@@ -64,22 +74,41 @@ contributor:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0003-2585-4611
+  includeInCitation: true
   name: Fang Zhang
   roleName:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: true
+- email: sunyt@zju.edu.cn
+  includeInCitation: true
   name: Yuting Sun
   roleName:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
-- includeInCitation: false
+- identifier: 0000-0002-2576-6796
+  includeInCitation: true
+  name: Yongte Zheng
+  roleName:
+  - dcite:DataCollector
+  - dcite:Researcher
+  schemaKey: Person
+- includeInCitation: true
+  name: Junming Zhu
+  roleName:
+  - dcite:Supervision
+  - dcite:Validation
+  schemaKey: Person
+- email: xukd@zju.edu.cn
+  identifier: 0000-0002-9059-3860
+  includeInCitation: true
   name: Kedi Xu
   roleName:
   - dcite:ContactPerson
+  - dcite:ProjectAdministration
+  - dcite:Supervision
   schemaKey: Person
 - awardNumber: 6 R10 CN 121381-09
   includeInCitation: false
@@ -88,7 +117,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-02T08:46:00.097734+00:00'
-description: We provided a long-term brain electrophysiological dataset of 10 pilocarpine-treated
+description: We provided a long-term brain electrophysiological dataset of 15 pilocarpine-treated
   temporal lobe epilepsy (TLE) rats during the development of epilepsy. The dataset
   was constituted by multi-site local field potential (LFP) signal recorded from 12
   sites in the circuit of Papez in TLE, including spontaneous seizures and interictal
@@ -136,4 +165,5 @@ studyTarget:
 - Brain electrophysiological changes in TLE rats with spontaneous chronic seizures
 url: https://dandiarchive.org/dandiset/001044/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- {}
