@@ -3,9 +3,6 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
 about:
-- identifier: ''
-  name: temporal lobe epilepsy
-  schemaKey: Disorder
 - name: Sprague-Dawley
   schemaKey: GenericType
 - name: bilateral subiculum (SUB)
@@ -22,7 +19,7 @@ about:
   schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: ''
 assetsSummary:
   approach:
@@ -48,22 +45,22 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Haoqi Ni; Yufang Yang; Fang Zhang; Yuting Sun; Yongte Zheng; Junming Zhu;
-  Kedi Xu (2024) Dataset of long-term multi-site LFP activity with spontaneous chronic
-  seizures recorded in temporal lobe epilepsy rats (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/001044/draft
+citation: Haoqi, Ni; Yufang, Yang; Fang, Zhang; Yuting, Sun; Yongte, Zheng; Junming,
+  Zhu; Kedi, Xu (2024) Dataset of long-term multi-site LFP activity with spontaneous
+  chronic seizures recorded in temporal lobe epilepsy rats (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/001044/draft
 contributor:
 - email: nihq@zju.edu.cn
   identifier: 0009-0003-1749-4043
   includeInCitation: true
-  name: Haoqi Ni
+  name: Haoqi, Ni
   roleName:
   - dcite:Author
   - dcite:DataManager
   - dcite:FormalAnalysis
   schemaKey: Person
 - includeInCitation: true
-  name: Yufang Yang
+  name: Yufang, Yang
   roleName:
   - dcite:Author
   - dcite:DataCollector
@@ -71,27 +68,27 @@ contributor:
   schemaKey: Person
 - identifier: 0000-0003-2585-4611
   includeInCitation: true
-  name: Fang Zhang
+  name: Fang, Zhang
   roleName:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
 - email: sunyt@zju.edu.cn
   includeInCitation: true
-  name: Yuting Sun
+  name: Yuting, Sun
   roleName:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
 - identifier: 0000-0002-2576-6796
   includeInCitation: true
-  name: Yongte Zheng
+  name: Yongte, Zheng
   roleName:
   - dcite:DataCollector
   - dcite:Researcher
   schemaKey: Person
 - includeInCitation: true
-  name: Junming Zhu
+  name: Junming, Zhu
   roleName:
   - dcite:Supervision
   - dcite:Validation
@@ -99,7 +96,7 @@ contributor:
 - email: xukd@zju.edu.cn
   identifier: 0000-0002-9059-3860
   includeInCitation: true
-  name: Kedi Xu
+  name: Kedi, Xu
   roleName:
   - dcite:ContactPerson
   - dcite:ProjectAdministration
@@ -131,6 +128,7 @@ contributor:
     Advanced Study
   schemaKey: Organization
 dateCreated: '2024-06-02T08:46:00.097734+00:00'
+datePublished: '2024-09-05T01:59:50.643613+00:00'
 description: We provided a long-term brain electrophysiological dataset of 15 pilocarpine-treated
   temporal lobe epilepsy (TLE) rats during the development of epilepsy. The dataset
   was constituted by multi-site local field potential (LFP) signal recorded from 12
@@ -157,13 +155,13 @@ ethicsApproval:
 id: DANDI:001044/draft
 identifier: DANDI:001044
 keywords:
-- temporal lobe epilepsy
 - neurophysiology
 - neurosurgery
 - local field potential
 - spontaneous seizure
 - multi-site
 - NWB
+- temporal lobe epilepsy
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -171,7 +169,31 @@ manifestLocation:
 name: Dataset of long-term multi-site LFP activity with spontaneous chronic seizures
   recorded in temporal lobe epilepsy rats.
 protocol: []
-relatedResource: []
+publishedBy:
+  endDate: '2024-09-05T01:59:50.643613+00:00'
+  id: urn:uuid:8899374f-d429-4aa7-8246-3ce695a94cf2
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-09-05T01:59:50.643613+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:f16088b3-c733-471d-a3aa-93cecec3c7bb
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource:
+- name: Progressive alterations in electrophysiological and epileptic network properties
+    during the development of temporal lobe epilepsy in rats
+  relation: dcite:Cites
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.yebeh.2023.109120
+- name: The codes used for the NWB file conversion, the technical validation and epilepsy
+    feature extraction.
+  relation: dcite:IsCitedBy
+  repository: epilepsy-analysis
+  schemaKey: Resource
+  url: https://github.com/SancTUARYY/epilepsy-analysis
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
@@ -179,8 +201,4 @@ studyTarget:
 - Brain electrophysiological changes in TLE rats with spontaneous chronic seizures
 url: https://dandiarchive.org/dandiset/001044/draft
 version: draft
-wasGeneratedBy:
-- identifier: https://doi.org/10.1016/j.yebeh.2023.109120
-  name: Progressive alterations in electrophysiological and epileptic network properties
-    during the development of temporal lobe epilepsy in rats
-  schemaKey: Project
+wasGeneratedBy: []
