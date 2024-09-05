@@ -47,8 +47,8 @@ assetsSummary:
   - ElectrodeGroup
 citation: Haoqi, Ni; Yufang, Yang; Fang, Zhang; Yuting, Sun; Yongte, Zheng; Junming,
   Zhu; Kedi, Xu (2024) Dataset of long-term multi-site LFP activity with spontaneous
-  chronic seizures recorded in temporal lobe epilepsy rats (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/001044/draft
+  chronic seizures recorded in temporal lobe epilepsy rats (Version 0.240905.0159)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001044/0.240905.0159
 contributor:
 - email: nihq@zju.edu.cn
   identifier: 0009-0003-1749-4043
@@ -143,6 +143,7 @@ description: We provided a long-term brain electrophysiological dataset of 15 pi
   detection. The dataset is available to reveal how brain electrophysiological and
   epileptic network properties of chronic TLE rats change from early to late stages,
   and help inform the design of adaptive neuromodulation for epilepsy.
+doi: 10.48324/dandi.001044/0.240905.0159
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -152,7 +153,7 @@ ethicsApproval:
     schemaKey: ContactPoint
   identifier: Zhejiang University 15896
   schemaKey: EthicsApproval
-id: DANDI:001044/draft
+id: DANDI:001044/0.240905.0159
 identifier: DANDI:001044
 keywords:
 - neurophysiology
@@ -165,7 +166,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001044/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001044/0.240905.0159/assets.yaml
 name: Dataset of long-term multi-site LFP activity with spontaneous chronic seizures
   recorded in temporal lobe epilepsy rats.
 protocol: []
@@ -199,6 +200,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget:
 - Brain electrophysiological changes in TLE rats with spontaneous chronic seizures
-url: https://dandiarchive.org/dandiset/001044/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001044/0.240905.0159
+version: 0.240905.0159
 wasGeneratedBy: []
